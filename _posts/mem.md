@@ -1,0 +1,1 @@
+adb shell dumpsys meminfo来查看，列出信息中的Total PSS by OOM adjustment:就是系统为程序的OOM排序结果，OOM异常的时候会根据这个表单从下网上杀掉进程释放内存。
